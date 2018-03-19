@@ -1,14 +1,14 @@
 package web;
 
 import compte.Compte;
-import compte.Implementation_du_Compte;
 
 public class GuichetWEB {
     // Variables
-    public Compte compte = new Implementation_du_Compte("007", "Antoine", "0687878787", "service Web");
+    public Compte compte ;
     private double montantRetrait;
     private double montantDepot;
 
+    // GETTERS et SETTERS
     public double getMontantRetrait() {
         return montantRetrait;
     }
